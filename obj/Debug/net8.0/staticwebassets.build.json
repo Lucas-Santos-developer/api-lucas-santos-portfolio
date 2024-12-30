@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "GBCC8Buvy3ywZ0zta0zaxAkQ3mP6akfJOGxw2QxGFKI=",
+  "Source": "APILucasSantosPortfolio",
+  "BasePath": "_content/APILucasSantosPortfolio",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

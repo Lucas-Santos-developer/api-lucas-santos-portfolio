@@ -1,0 +1,6 @@
+@APILucasSantosPortfolio_HostAddress = http://localhost:5041
+
+GET {{APILucasSantosPortfolio_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
