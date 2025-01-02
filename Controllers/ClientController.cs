@@ -1,9 +1,7 @@
 ﻿using APILucasSantosPortfolio.Context;
 using APILucasSantosPortfolio.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.JsonPatch;
 
 namespace APILucasSantosPortfolio.Controllers
 {

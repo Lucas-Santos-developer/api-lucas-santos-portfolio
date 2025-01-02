@@ -1,4 +1,6 @@
-﻿namespace APILucasSantosPortfolio.Models;
+﻿using System.Text.Json.Serialization;
+
+namespace APILucasSantosPortfolio.Models;
 
 public enum Status { Completed, InProgress, NotStarted }
 public class Service
@@ -10,6 +12,7 @@ public class Service
     public DateTime ServiceEndDate { get; set; }
     public Status ServiceStatus { get; set; }
     public int ClientId { get; set; }
+    [JsonIgnore]
     public Client? Client { get; set; }
 }
 
